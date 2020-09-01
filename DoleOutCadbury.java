@@ -36,8 +36,8 @@ class DoleOutCadbury{
 			}
 		}
 
-		for(int i=p; i<q+1; i++){
-			for(int j=r; j<s+1; j++){
+		for(int i=p; i<=q; i++){
+			for(int j=r; j<=s; j++){
 				c += a[i][j];
 			}
 		}
